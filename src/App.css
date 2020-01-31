@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+#menu ul li {
+  list-style: none;
+  height: 46px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.center {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.center h1, nav, h2 {
+  text-align: center;
+}
+
+.link {
+
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.srv-validation-message, .message {
+  color: red;
+}
